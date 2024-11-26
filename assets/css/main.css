@@ -1609,10 +1609,14 @@ section,
 
 .team .team .pic {
   margin-bottom: 30px;
+
 }
 
 .team .team .pic img {
   border-radius: 4px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover; /* Ensures proportional scaling within the defined size */
 }
 
 .team .team .position {
